@@ -1,5 +1,7 @@
+import math
+
 def circle_area(r):
-    return 3.14 * r * r
+    return math.pi * r * r
 
 def rect_area(w, h):
     return w * h
