@@ -1,10 +1,9 @@
 import math
 
-def circle_area(r):
-    return math.pi * r * r
+def pythagoras(a, b):
+    c = math.sqrt(a**2 + b**2)
+    return c
 
-def rect_area(w, h):
-    return w * h
-
-def tri_area(w, h):
-    return 0.5 * w * h
+def circle(r):
+    area = math.pi * r**2
+    return area

@@ -1,9 +1,9 @@
-from geo.utils import circle_area, rect_area, tri_area
+import geo.utils as utils
 
-def main():
-    print(circle_area(10))
-    print(rect_area(3, 4))
-    print(tri_area(4, 5))
+a, b = 3, 4
+c = utils.pythagoras(a, b)
+print('c =', c)
 
-if __name__ == "__main__":
-    main()
+r = 10
+area = utils.circle(r)
+print('area =', area)
